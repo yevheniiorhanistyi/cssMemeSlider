@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <title>CSS Meme Slider</title>
+</head>
+
+<body>
+  <div class="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+    <input type="radio" name="slider" id="slide5">
+    <div class="slides">
+      <div class="slides-wrapper">
+        <div class="inner">
+          <div class="slide slide_1">
+            <img class="slide__img" src="./assets/meme-1.jpeg" alt="I don't blink" draggable="false">
+          </div>
+          <div class="slide slide_2">
+            <img class="slide__img" src="./assets/meme-2.jpeg" alt="Anytime he's on the news something"
+              draggable="false">
+          </div>
+          <div class="slide slide_3">
+            <img class="slide__img" src="./assets/meme-3.png" alt="Carrots won't save me now" draggable="false">
+          </div>
+          <div class="slide slide_4">
+            <img class="slide__img" src="./assets/meme-4.jpeg" alt="We can avoid AI singularity" draggable="false">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-bottom">
+      <div class="description-wrapper">
+        <div class="description">
+          <p class="slider-bottom__text" id="text1">I don't blink</p>
+          <p class="slider-bottom__text" id="text2">Anytime he's on the news something</p>
+          <p class="slider-bottom__text" id="text3">Carrots won't save me now</p>
+          <p class="slider-bottom__text" id="text4">Let’s crash civilization!</p>
+        </div>
+      </div>
+      <div class="dots">
+        <label for="slide1">
+          <span></span>
+        </label>
+        <label for="slide2">
+          <span></span>
+        </label>
+        <label for="slide3">
+          <span></span>
+        </label>
+        <label for="slide4">
+          <span></span>
+        </label>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
